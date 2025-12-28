@@ -46,14 +46,13 @@ body
   content: "☓";
   font-size: 132px;
   color: #800000;
-
-  /* remove posicionamento manual */
-  position: relative;
-
-  /* isso garante que a animação nasce no centro */
-  transform-origin: center center;
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
   animation: fadeInMark 0.3s ease-out;
+  transform-origin: center;
 }
 
 /* casa do meio */
