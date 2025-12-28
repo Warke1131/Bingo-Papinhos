@@ -1,4 +1,5 @@
-body {
+body
+{
   margin: 0;
   padding: 20px;
   background: #ffffff;
@@ -33,6 +34,11 @@ body {
 /* área clicável */
 .cell {
   cursor: pointer;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  top: 7px;
+  left: 3px;
 }
 
 /* X ao marcar */
