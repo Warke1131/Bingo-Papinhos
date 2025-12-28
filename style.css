@@ -81,7 +81,7 @@ body
   }
 }
 @keyframes fadeInMark {
-  transform: translate(-50%, -50%);
+  transform-origin: center;
   from {
     opacity: 0;
     transform: scale(0.7);
