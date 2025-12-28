@@ -46,7 +46,7 @@ body
   content: "☓";
   font-size: 132px;
   color: #800000;
-  position: relative;
+  position: absolute;
   top: 43%;
   left: 50%;
   transform: translate(-50%, -50%);
