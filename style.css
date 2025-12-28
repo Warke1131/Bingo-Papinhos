@@ -56,3 +56,13 @@ body
 .cell.center {
   cursor: default;
 }
+@media (max-width: 768px) {
+  #bingo-container {
+    width: 95vw;
+  }
+
+  .cell.marked::after {
+    font-size: 18vw; /* ajusta o X automaticamente */
+  }
+}
+
